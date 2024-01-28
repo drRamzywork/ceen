@@ -9,60 +9,55 @@ import NextLink from 'components/reuseable/links/NextLink';
 
 const BlogTwo = () => {
   return <Fragment>
-      <PageProgress />
+    <PageProgress />
 
-      {
+    {
       /* ========== header section ========== */
     }
-      <header className="wrapper bg-soft-primary">
-        <Navbar search navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light" button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />} />
-      </header>
+    <header className="wrapper bg-soft-primary">
+      <Navbar search navClassName="navbar navbar-expand-lg center-nav navbar-light navbar-bg-light" button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded-pill" />} />
+    </header>
 
-      <main className="content-wrapper">
-        {
-        /* ========== title section ========== */
-      }
-        <section className="section-frame overflow-hidden">
-          <div className="wrapper bg-soft-primary">
-            <div className="container py-12 py-md-16 text-center">
-              <div className="row">
-                <div className="col-md-7 col-lg-6 col-xl-5 mx-auto">
-                  <h1 className="display-1 mb-3">Business News</h1>
-                  <p className="lead px-lg-5 px-xxl-8 mb-1">
-                    Welcome to our journal. Here you can find the latest company news and business articles.
-                  </p>
-                </div>
+    <main className="content-wrapper">
+
+      <section className="section-frame overflow-hidden">
+        <div className="wrapper bg-soft-primary">
+          <div className="container py-12 py-md-16 text-center">
+            <div className="row">
+              <div className="col-md-7 col-lg-6 col-xl-5 mx-auto">
+                <h1 className="display-1 mb-3">Business News</h1>
+                <p className="lead px-lg-5 px-xxl-8 mb-1">
+                  Welcome to our journal. Here you can find the latest company news and business articles.
+                </p>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="wrapper bg-light">
-          <div className="container py-14 py-md-16">
-            <div className="row gx-lg-8 gx-xl-12">
-              {
+      <section className="wrapper bg-light">
+        <div className="container py-14 py-md-16">
+          <div className="row gx-lg-8 gx-xl-12">
+            {
               /* ========== blog details section ========== */
             }
-              <div className="col-lg-8">
-                <BlogTemplate />
-              </div>
+            <div className="col-lg-8">
+              <BlogTemplate />
+            </div>
 
-              {
+            {
               /* ========== sidebar section ========== */
             }
-              <aside className="col-lg-4 sidebar mt-8 mt-lg-6">
-                <BlogSidebar />
-              </aside>
-            </div>
+            <aside className="col-lg-4 sidebar mt-8 mt-lg-6">
+              <BlogSidebar />
+            </aside>
           </div>
-        </section>
-      </main>
+        </div>
+      </section>
+    </main>
 
-      {
-      /* ========== footer section ========== */
-    }
-      <Footer8 />
-    </Fragment>;
+    <Footer8 />
+  </Fragment>;
 };
 
 export default BlogTwo;

@@ -1,7 +1,6 @@
 import Plyr from 'plyr-react';
 import Image from 'next/image';
 
-import { Footer8 } from 'components/blocks/footer';
 import { Navbar } from 'components/blocks/navbar';
 import { BlogCard2, BlogCard3 } from 'components/reuseable/blog-cards';
 import Carousel from 'components/reuseable/Carousel';
@@ -26,7 +25,6 @@ const Blogs = ({ blogs }) => {
   };
 
 
-  console.log(blogs, "blogs")
   return (
 
     <>
@@ -59,9 +57,6 @@ const Blogs = ({ blogs }) => {
             <div className="row">
               <div className="col-lg-10 mx-auto">
                 <div className="blog classic-view mt-n17">
-                  {console.log(blogs[12].youtubeURL, 'blogs')}
-
-
                   <BlogCard2
                     link={`/blog/${blogs[11]._id}`}
                     category={blogs[11].category}
@@ -90,7 +85,7 @@ const Blogs = ({ blogs }) => {
                         </Carousel>
                       </div>
                     </div>} />
-                  <BlogCard2 link="#" category="WORKSPACE" title="Consectetur Bibendum Sollicitudin Vulputate" description="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur." cardTop={<div className="card-img-top">
+                  <BlogCard2 link={`blog-details/${blogs[12]._id}`} category={blogs[12].category} title={blogs[12].title} description={blogs[12].fullDesc} cardTop={<div className="card-img-top">
                     <Plyr options={{
                       loadSprite: true,
                       clickToPlay: true
@@ -151,8 +146,7 @@ export async function getStaticProps() {
     };
 
     const response = await axios.request(config);
-    const blogs = response.data.documents; // Assuming the response has a 'documents' field
-    // Return the blogs data as a prop
+    const blogs = response.data.documents;
     return {
       props: {
         blogs

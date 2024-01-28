@@ -66,8 +66,6 @@ const Navbar = props => {
           }
           <li className="nav-item dropdown">
             {/* <DropdownToggleLink title="Pages" className="nav-link dropdown-toggle" /> */}
-
-
           </li>
 
           {
@@ -97,14 +95,12 @@ const Navbar = props => {
           </li>
 
           <li className="nav-item dropdown">
-            <ListItemLink href="/blog" title="Blogs" linkClassName="nav-link " />
+            <ListItemLink href="/blogs" title="Blogs" linkClassName="nav-link " />
           </li>
 
         </ul>
 
-        {
-          /* ============= show contact info in the small device sidebar ============= */
-        }
+
         <div className="offcanvas-footer d-lg-none">
           <div>
             <NextLink title="info@email.com" className="link-inverse" href="mailto:first.last@email.com" />
@@ -146,7 +142,6 @@ const Navbar = props => {
         }
         {button && <li className="nav-item d-none d-md-block">{button}</li>}
 
-        {console.log(button)}
         {
           /* ============= shopping cart button ============= */
         }
