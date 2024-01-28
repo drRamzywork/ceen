@@ -58,7 +58,7 @@ const Blogs = ({ blogs }) => {
               <div className="col-lg-10 mx-auto">
                 <div className="blog classic-view mt-n17">
                   <BlogCard2
-                    link={`/blog/${blogs[11]._id}`}
+                    link={`/blog-details/${blogs[11]._id}`}
                     category={blogs[11].category}
                     description={blogs[11].fullDesc}
                     title={blogs[11].title}

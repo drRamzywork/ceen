@@ -93,7 +93,7 @@ const BlogDetailsTemplate = ({ blog, blogFilter }) => {
 
   useLightBox();
   return <div className="card">
-    <FigureImage width={960} height={600} src={`https://dashboard-ashy-alpha.vercel.app/api/images/${blog.mainImage[0]}`} className="card-img-top" />
+    <FigureImage width={560} height={300} src={`https://dashboard-ashy-alpha.vercel.app/api/images/${blog.mainImage[0]}`} className="card-img-top" />
 
     <div className="card-body">
       <div className="classic-view">
@@ -115,7 +115,7 @@ const BlogDetailsTemplate = ({ blog, blogFilter }) => {
                         width={460}
                         height={307}
                         src={url}
-                        alt="demo"
+                        alt=""
                         style={{ width: '100%', height: 'auto' }}
                       />
                     </a>
