@@ -101,9 +101,19 @@ const Blogs = ({ blogs }) => {
 
                 <div className="blog grid grid-view">
                   <div className="row isotope gx-md-8 gy-8 mb-8">
-                    {currentPosts.map(item => <BlogCard3 {...item} key={item._id
-                    } link={item._id
-                      || '#'} />)}
+                    {currentPosts.map(item =>
+                      <>
+                        <BlogCard3 {...item} key={item._id
+                        } link={`/blog-details/${item._id}`
+
+                          || '#'} />
+                        {
+                          console.log(item._id, "itemitem")
+
+                        }
+                      </>
+                    )}
+
 
                   </div>
                 </div>

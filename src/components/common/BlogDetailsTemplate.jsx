@@ -90,7 +90,7 @@ const BlogDetailsTemplate = ({ blog, blogFilter }) => {
     };
   };
   const images = blog.blogImagesGallery.map(id => ({ id, ...getImageUrl(id) }));
-
+  const blogs = blogFilter.slice(0, 6)
   useLightBox();
   return <div className="card">
     <FigureImage width={560} height={300} src={`https://dashboard-ashy-alpha.vercel.app/api/images/${blog.mainImage[0]}`} className="card-img-top" />
@@ -213,7 +213,7 @@ const BlogDetailsTemplate = ({ blog, blogFilter }) => {
             ...item
           }) => <BlogCard1 key={_id} {...item} />)} */}
 
-          {blogFilter.map(({ _id, ...item }) => <BlogCard1 key={_id} _id={_id} {...item} />)}
+          {blogs.map(({ _id, ...item }) => <BlogCard1 key={_id} _id={_id} {...item} />)}
 
         </Carousel>
       </div>

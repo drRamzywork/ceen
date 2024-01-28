@@ -15,7 +15,7 @@ const BlogCard3 = props => {
   return <article className="item post col-md-6">
     <div className="card">
       <figure className="card-img-top overlay overlay-1 hover-scale">
-        <Link href={`/blog/${link}`} passHref legacyBehavior>
+        <Link href={`${link}`} passHref legacyBehavior>
           <FigureImage width={560} height={350} src={`https://dashboard-ashy-alpha.vercel.app/api/images/${mainImage}`} alt='hello' />
         </Link>
 
