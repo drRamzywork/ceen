@@ -99,7 +99,7 @@ const BlogDetailsTemplate = ({ blog, blogFilter }) => {
       <div className="classic-view">
         <article className="post">
           <div className="post-content mb-5">
-            <h2 className="h1 mb-4">{blog.secTitle}</h2>
+            <h2 className="h1 mb-4">{blog.title}</h2>
 
             <p>
               {blog.brefDesc}

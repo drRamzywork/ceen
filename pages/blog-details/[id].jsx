@@ -8,7 +8,7 @@ import BlogDetailsTemplate from 'components/common/BlogDetailsTemplate';
 import axios from 'axios';
 
 const BlogDetailsOne = ({ blog, blogFilter }) => {
-
+  console.log(blog)
 
   return (
     <>

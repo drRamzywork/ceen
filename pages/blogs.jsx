@@ -23,7 +23,7 @@ const Blogs = ({ blogs }) => {
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
-
+  console.log(blogs, "BBBBBBB")
 
   return (
 
