@@ -5,12 +5,12 @@ import SocialLinks from 'components/reuseable/SocialLinks'; // -------- data ---
 import footerNav from 'data/footer';
 
 const Footer8 = () => {
-  return <footer className="bg-dark text-inverse">
+  return <footer className="text-inverse">
     <div className="container py-13 py-md-15">
       <div className="row gy-6 gy-lg-0">
         <div className="col-md-4 col-lg-3">
           <div className="widget">
-            <img className="mb-4" src="/img/logo-dark.jpeg" srcSet="/img/logo-light@2x.png 2x" alt="" style={{ width: '150px', height: '30px', objectFit: 'cover' }} />
+            <img className="mb-4" src="/img/logo-dark.jpeg" alt="" style={{ width: '150px', height: '30px', objectFit: 'cover' }} />
 
             <p className="mb-4">
               © 2024 CEEN | ســـــين. <br className="d-none d-lg-block" />

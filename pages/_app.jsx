@@ -18,6 +18,7 @@ import 'glightbox/dist/css/glightbox.css'; // custom scrollcue css
 import 'plugins/scrollcue/scrollCue.css'; // Bootstrap and custom scss
 
 import 'assets/scss/style.scss';
+import '../public/css/global.css';
 
 function MyApp({
   Component,
