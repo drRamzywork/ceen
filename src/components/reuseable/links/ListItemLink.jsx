@@ -9,8 +9,8 @@ const ListItemLink = props => {
     title
   } = props;
   return <li className={liClassName}>
-      <NextLink className={linkClassName} href={href} title={title} />
-    </li>;
+    <NextLink className={linkClassName} href={href} title={title} />
+  </li>;
 };
 
 export default ListItemLink;

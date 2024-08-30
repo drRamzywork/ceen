@@ -9,37 +9,37 @@ import PageProgress from 'components/common/PageProgress';
 
 const Demo16 = () => {
   return <Fragment>
-      <PageProgress />
+    <PageProgress />
 
-      {
+    {
       /* ========== header ========== */
     }
-      <header className="wrapper bg-gray">
-        <Navbar social fancy navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light" />
-      </header>
+    <header className="wrapper bg-gray">
+      <Navbar social fancy navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light" />
+    </header>
 
-      <main className="content-wrapper">
-        {
+    <main className="content-wrapper">
+      {
         /* ========== hero section ========== */
       }
-        <Hero16 />
+      {/* <Hero16 /> */}
 
-        {
+      {
         /* ========== what i do section ========== */
       }
-        <Services18 />
+      <Services18 />
 
-        {
+      {
         /* ========== latest projects section ========== */
       }
-        <Portfolio9 />
+      <Portfolio9 />
 
-        {
+      {
         /* ========== contact and footer section ========== */
       }
-        <Contact10 />
-      </main>
-    </Fragment>;
+      <Contact10 />
+    </main>
+  </Fragment>;
 };
 
 export default Demo16;

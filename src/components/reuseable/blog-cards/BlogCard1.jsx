@@ -15,7 +15,7 @@ const BlogCard1 = ({
     <figure className="overlay overlay-1 hover-scale rounded mb-6">
       <Link href={`${_id}`} passHref legacyBehavior>
         <a>
-          <Image width={560} height={350} src={`https://dashboard-ashy-alpha.vercel.app/api/images/${mainImage[0]}`} alt={title} style={{
+          <Image width={560} height={350} src={`https://dashboard-ashy-alpha.vercel.app/api/images/${mainImage}`} alt={title} style={{
             width: '100%',
             height: 'auto'
           }} />

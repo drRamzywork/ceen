@@ -24,23 +24,7 @@ const tags = [{
   title: 'Nature',
   url: '#'
 }];
-const images = [{
-  id: 1,
-  url: '/img/photos/b8.jpg',
-  full: '/img/photos/b8-full.jpg'
-}, {
-  id: 2,
-  url: '/img/photos/b9.jpg',
-  full: '/img/photos/b9-full.jpg'
-}, {
-  id: 3,
-  url: '/img/photos/b10.jpg',
-  full: '/img/photos/b10-full.jpg'
-}, {
-  id: 4,
-  url: '/img/photos/b11.jpg',
-  full: '/img/photos/b11-full.jpg'
-}];
+
 const blogs = [{
   id: 1,
   link: '#',

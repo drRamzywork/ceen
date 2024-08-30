@@ -58,17 +58,17 @@ const Blogs = ({ blogs }) => {
               <div className="col-lg-10 mx-auto">
                 <div className="blog classic-view mt-n17">
                   <BlogCard2
-                    link={`/blog-details/${blogs[11]._id}`}
-                    category={blogs[11].category}
-                    description={blogs[11].fullDesc}
-                    title={blogs[11].title}
+                    link={`/blog-details/${blogs[1]._id}`}
+                    category={blogs[1].category}
+                    description={blogs[1].fullDesc}
+                    title={blogs[1].title}
 
                     cardTop={<div className="post-slider card-img-top">
                       <div className="swiper-container dots-over">
 
                         <Carousel grabCursor spaceBetween={5} slidesPerView={1}>
 
-                          {blogs.length > 0 && blogs[11].blogImagesGallery && blogs[11].blogImagesGallery.map(imageId => (
+                          {blogs.length > 0 && blogs[1].blogImagesGallery && blogs[1].blogImagesGallery.map(imageId => (
                             <>
                               <Image
                                 key={imageId}
@@ -85,14 +85,14 @@ const Blogs = ({ blogs }) => {
                         </Carousel>
                       </div>
                     </div>} />
-                  <BlogCard2 link={`blog-details/${blogs[12]._id}`} category={blogs[12].category} title={blogs[12].title} description={blogs[12].fullDesc} cardTop={<div className="card-img-top">
+                  <BlogCard2 link={`blog-details/${blogs[3]._id}`} category={blogs[3].category} title={blogs[3].title} description={blogs[3].fullDesc} cardTop={<div className="card-img-top">
                     <Plyr options={{
                       loadSprite: true,
                       clickToPlay: true
                     }} source={{
                       type: 'video',
                       sources: [{
-                        src: blogs[12].youtubeURL,
+                        src: blogs[3].youtubeURL,
                         provider: 'youtube'
                       }]
                     }} />
