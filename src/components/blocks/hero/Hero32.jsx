@@ -17,7 +17,7 @@ const Hero32 = () => {
             </span>{' '}
           </h1>
 
-          <div data-delay="900" data-cues="zoomIn" data-group="page-title-buttons" className="d-flex justify-content-left mb-4">
+          <div data-delay="900" data-cues="zoomIn" data-group="page-title-buttons" className="d-flex justify-content-center mb-4">
             <span>
               <NextLink title="Explore Now" href="#hero" className="btn btn-lg btn-white" />
             </span>
