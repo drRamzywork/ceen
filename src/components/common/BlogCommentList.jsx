@@ -5,7 +5,7 @@ import NextLink from 'components/reuseable/links/NextLink'; // -------- data ---
 
 const comments = [{
   id: 1,
-  createdAt: '14 Jan 2022',
+  createdAt: '14 Jan 2024',
   user: {
     name: 'Connor Gibson',
     image: '/img/avatars/u1.jpg',
@@ -17,7 +17,7 @@ const comments = [{
   reply: null
 }, {
   id: 2,
-  createdAt: '21 Feb 2022',
+  createdAt: '21 Feb 2024',
   user: {
     name: 'Nikolas Brooten',
     image: '/img/avatars/u2.jpg',
@@ -26,7 +26,7 @@ const comments = [{
   comment: `Quisque tristique tincidunt metus non aliquam. Quisque ac risus sit amet quam sollicitudin vestibulum vitae malesuada libero. Mauris magna elit, suscipit non ornare et, blandit a tellus. Pellentesque dignissim ornare faucibus mollis.`,
   reply: [{
     id: 3,
-    createdAt: '22 Feb 2022',
+    createdAt: '22 Feb 2024',
     user: {
       name: 'Pearce Frye',
       image: '/img/avatars/u3.jpg',
@@ -35,7 +35,7 @@ const comments = [{
     comment: `Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis.`,
     reply: [{
       id: 4,
-      createdAt: '4 Apr 2022',
+      createdAt: '4 Apr 2024',
       user: {
         name: 'Nikolas Brooten',
         image: '/img/avatars/u2.jpg',
@@ -47,7 +47,7 @@ const comments = [{
   }]
 }, {
   id: 5,
-  createdAt: '3 May 2022',
+  createdAt: '3 May 2024',
   user: {
     name: 'Lou Bloxham',
     image: '/img/avatars/u4.jpg',
@@ -69,43 +69,43 @@ const BlogCommentList = () => {
       comment
     }) => {
       return <li className="comment" key={id}>
-          <div className="comment-header d-md-flex align-items-center">
-            <div className="d-flex align-items-center">
-              <FigureImage width={120} height={120} src={user.image} className="user-avatar rounded-circle overflow-hidden" />
+        <div className="comment-header d-md-flex align-items-center">
+          <div className="d-flex align-items-center">
+            <FigureImage width={120} height={120} src={user.image} className="user-avatar rounded-circle overflow-hidden" />
 
-              <div>
-                <h6 className="comment-author">
-                  <NextLink title={user.name} href={user.link} className="link-dark" />
-                </h6>
+            <div>
+              <h6 className="comment-author">
+                <NextLink title={user.name} href={user.link} className="link-dark" />
+              </h6>
 
-                <ul className="post-meta">
-                  <li>
-                    <i className="uil uil-calendar-alt" /> {dayjs(createdAt).format('DD MMM YYYY')}
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="mt-3 mt-md-0 ms-auto">
-              <button className="btn btn-soft-ash btn-sm rounded-pill btn-icon btn-icon-start mb-0">
-                <i className="uil uil-comments" /> Reply
-              </button>
+              <ul className="post-meta">
+                <li>
+                  <i className="uil uil-calendar-alt" /> {dayjs(createdAt).format('DD MMM YYYY')}
+                </li>
+              </ul>
             </div>
           </div>
 
-          <p>{comment}</p>
+          <div className="mt-3 mt-md-0 ms-auto">
+            <button className="btn btn-soft-ash btn-sm rounded-pill btn-icon btn-icon-start mb-0">
+              <i className="uil uil-comments" /> Reply
+            </button>
+          </div>
+        </div>
 
-          {
+        <p>{comment}</p>
+
+        {
           /* nested reply comments */
         }
-          {reply && Array.isArray(reply) && <ul className="children">{renderLevels(reply)}</ul>}
-        </li>;
+        {reply && Array.isArray(reply) && <ul className="children">{renderLevels(reply)}</ul>}
+      </li>;
     });
   };
 
   return <ol className="commentlist" id="singlecomments">
-      {renderLevels(comments)}
-    </ol>;
+    {renderLevels(comments)}
+  </ol>;
 };
 
 export default BlogCommentList;

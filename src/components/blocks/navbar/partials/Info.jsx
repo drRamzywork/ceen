@@ -61,7 +61,7 @@ const Info = props => {
 
 
 Info.defaultProps = {
-  title: Ceen,
+  title: 'CEEN | ســـــين',
   phone: '00 (123) 456 78 90',
   description: `Sandbox is a multipurpose HTML5 template with various layouts which will be a great solution for your business.`,
   address: <Fragment>

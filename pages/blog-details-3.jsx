@@ -40,7 +40,7 @@ const BlogDetailsThree = () => {
                   <ul className="post-meta text-white">
                     <li className="post-date">
                       <i className="uil uil-calendar-alt" />
-                      <span>5 Jul 2022</span>
+                      <span>5 Jul 2024</span>
                     </li>
 
                     <li className="post-author">

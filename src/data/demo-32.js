@@ -44,7 +44,7 @@ export const blogs = [
   {
     id: 1,
     category: 'Coding',
-    date: '14 Apr 2022',
+    date: '14 Apr 2024',
     image: '/img/photos/b4.jpg',
     title: 'Ligula tristique quis risus',
     description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.`
@@ -52,7 +52,7 @@ export const blogs = [
   {
     id: 2,
     category: 'Workspace',
-    date: '29 Mar 2022',
+    date: '29 Mar 2024',
     image: '/img/photos/b5.jpg',
     title: 'ullam id dolor elit id nibh',
     description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.`
@@ -60,7 +60,7 @@ export const blogs = [
   {
     id: 3,
     category: 'Meeting',
-    date: '26 Feb 2022',
+    date: '26 Feb 2024',
     image: '/img/photos/b6.jpg',
     title: 'Ultricies fusce porta elit',
     description: `Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.`

@@ -3,28 +3,28 @@ export const blogList1 = [
   {
     id: 1,
     category: 'Coding',
-    date: '14 Apr 2022',
+    date: '14 Apr 2024',
     image: '/img/photos/b4.jpg',
     title: 'Ligula tristique quis risus'
   },
   {
     id: 2,
     category: 'Workspace',
-    date: '29 Mar 2022',
+    date: '29 Mar 2024',
     image: '/img/photos/b5.jpg',
     title: 'ullam id dolor elit id nibh'
   },
   {
     id: 3,
     category: 'Meeting',
-    date: '26 Feb 2022',
+    date: '26 Feb 2024',
     image: '/img/photos/b6.jpg',
     title: 'Ultricies fusce porta elit'
   },
   {
     id: 4,
     category: 'Business Tips',
-    date: '7 Jan 2022',
+    date: '7 Jan 2024',
     image: '/img/photos/b7.jpg',
     title: 'Morbi leo risus porta eget'
   }
@@ -34,28 +34,28 @@ export const blogList2 = [
   {
     id: 1,
     category: 'Coding',
-    date: '14 Apr 2022',
+    date: '14 Apr 2024',
     image: '/img/photos/b4.jpg',
     title: 'Ligula tristique quis risus'
   },
   {
     id: 2,
     category: 'Workspace',
-    date: '29 Mar 2022',
+    date: '29 Mar 2024',
     image: '/img/photos/b5.jpg',
     title: 'ullam id dolor elit id nibh'
   },
   {
     id: 3,
     category: 'Meeting',
-    date: '26 Feb 2022',
+    date: '26 Feb 2024',
     image: '/img/photos/b6.jpg',
     title: 'Ultricies fusce porta elit'
   },
   {
     id: 4,
     category: 'Business Tips',
-    date: '7 Jan 2022',
+    date: '7 Jan 2024',
     image: '/img/photos/b7.jpg',
     title: 'Morbi leo risus porta eget'
   }
@@ -67,7 +67,7 @@ export const blogList3 = [
     link: '#',
     comments: 4,
     category: 'Wedding',
-    createdAt: '14 Apr 2022',
+    createdAt: '14 Apr 2024',
     title: 'Ligula tristique quis risus',
     image: {
       '1x': '/img/photos/b12.jpg',
@@ -79,7 +79,7 @@ export const blogList3 = [
     link: '#',
     comments: 3,
     category: 'Engagement',
-    createdAt: '29 Mar 2022',
+    createdAt: '29 Mar 2024',
     title: 'Ligula tristique quis risus',
     image: {
       '1x': '/img/photos/b13.jpg',
@@ -91,7 +91,7 @@ export const blogList3 = [
     link: '#',
     comments: 6,
     category: 'Couples',
-    createdAt: '26 Feb 2022',
+    createdAt: '26 Feb 2024',
     title: 'Ultricies fusce porta elit',
     image: {
       '1x': '/img/photos/b14.jpg',
@@ -103,7 +103,7 @@ export const blogList3 = [
     link: '#',
     comments: 3,
     category: 'Engagement',
-    createdAt: '17 Jan 2022',
+    createdAt: '17 Jan 2024',
     title: 'Morbi leo risus porta eget',
     image: {
       '1x': '/img/photos/b15.jpg',
@@ -115,7 +115,7 @@ export const blogList3 = [
     link: '#',
     comments: 1,
     category: 'Couples',
-    createdAt: '7 Jan 2022',
+    createdAt: '7 Jan 2024',
     title: 'Nulla vitae elit libero',
     image: {
       '1x': '/img/photos/b16.jpg',
@@ -127,7 +127,7 @@ export const blogList3 = [
     link: '#',
     comments: 2,
     category: 'Wedding',
-    createdAt: '2 Jan 2022',
+    createdAt: '2 Jan 2024',
     title: 'Pharetra augue elit sem',
     image: {
       '1x': '/img/photos/b17.jpg',
@@ -177,7 +177,7 @@ export const blogList5 = [
     comments: 3,
     author: 'Ceen',
     category: 'Places',
-    createdAt: '8 Aug 2022',
+    createdAt: '8 Aug 2024',
     image: '/img/photos/tb1.jpg',
     title: 'The Best Moments in Venice'
   },
@@ -186,7 +186,7 @@ export const blogList5 = [
     comments: 5,
     author: 'Ceen',
     category: 'Restaurants',
-    createdAt: '5 Jul 2022',
+    createdAt: '5 Jul 2024',
     image: '/img/photos/tb2.jpg',
     title: '10 Great Places in Belgium'
   },
@@ -195,7 +195,7 @@ export const blogList5 = [
     comments: 8,
     author: 'Ceen',
     category: 'Roadtrip',
-    createdAt: '23 Jun 2022',
+    createdAt: '23 Jun 2024',
     image: '/img/photos/tb3.jpg',
     title: 'A Dreamy Roadtrip in Australia'
   },
@@ -204,7 +204,7 @@ export const blogList5 = [
     comments: 9,
     author: 'Ceen',
     category: 'Historic',
-    createdAt: '15 Apr 2022',
+    createdAt: '15 Apr 2024',
     image: '/img/photos/tb4.jpg',
     title: 'My Love Affair with Cappadocia'
   },
@@ -213,7 +213,7 @@ export const blogList5 = [
     comments: 11,
     author: 'Ceen',
     category: 'Nature',
-    createdAt: '14 Feb 2022',
+    createdAt: '14 Feb 2024',
     image: '/img/photos/tb5.jpg',
     title: '24 Hours in a Village of Valencia'
   },
@@ -222,7 +222,7 @@ export const blogList5 = [
     comments: 8,
     author: 'Ceen',
     category: 'Architecture',
-    createdAt: '22 Jan 2022',
+    createdAt: '22 Jan 2024',
     image: '/img/photos/tb6.jpg',
     title: 'The Largest Train Station in Europe'
   },
@@ -231,7 +231,7 @@ export const blogList5 = [
     comments: 14,
     author: 'Ceen',
     category: 'Nature',
-    createdAt: '2 Jan 2022',
+    createdAt: '2 Jan 2024',
     image: '/img/photos/tb7.jpg',
     title: 'The Natural Places in Brazil'
   }

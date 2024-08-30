@@ -44,7 +44,7 @@ const BlogCard3 = props => {
         <ul className="post-meta d-flex mb-0">
           <li className="post-date">
             <i className="uil uil-calendar-alt" />
-            <span>14 Apr 2022</span>
+            <span>14 Apr 2024</span>
           </li>
 
           <li className="post-comments">
